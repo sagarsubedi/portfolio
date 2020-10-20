@@ -1,0 +1,26 @@
+// imports for scss
+// 7 1 architecture
+// 7 subfolders and 1 main folder
+
+// go to sass folder and type: npm run compile:sass -w
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base"; 
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "layout/grid";
+
+@import "pages/home";
+
+@import "components/form";
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card"; 
+
+@import "layout/header"; 
+   
